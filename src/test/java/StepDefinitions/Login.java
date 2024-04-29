@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -14,6 +15,7 @@ import io.cucumber.java.en.When;
 public class Login {
 	// WebDriver driver= new EdgeDriver();
 	WebDriver driver = new FirefoxDriver();
+	//WebDriver driver = new ChromeDriver();
 	@Given("user opens browser")
 	public void user_opens_browser() {
 		//System.setProperty("webdriver.edge.driver","../../../src/main/resources/Drivers/msedgedriver.exe"); 

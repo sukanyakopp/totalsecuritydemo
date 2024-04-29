@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -15,6 +16,7 @@ import io.cucumber.java.en.When;
 
 public class Nav⁮igationLinks {
 	WebDriver driver = new FirefoxDriver();
+	//WebDriver driver = new ChromeDriver();
 	Actions actions = null;
 
 	@Given("user open browser") 
