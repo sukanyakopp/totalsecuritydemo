@@ -1,0 +1,7 @@
+This demo automation script uses Cucumber framework (java) with selenium webdriver. Kindly follow the below steps to run the scenarios.
+
+1) Please install eclipse on your local machine.
+2) The starting point would pom.xml so execution starts from here, please right click and Run As -> "Maven build" and make sure to give the default goal as "test".
+3) After the execution the report will be generated and stored in "target" folder as "report.html", if the generated report is not visible, kindly refresh "TotalSecurityDemo" folder.
+4) Please find the StepDefinitions(automation selenium code) in src/test/java 
+5) You can find the features in src/main/resources/Features
